@@ -85,7 +85,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Licnex`, `Line-Follower`, `@LicnexKhan`, `momin-khan-592797283`, `gmail.com`, `mominravage`, `Arduino Line Follower`, `An Arduino Line Follower that follows the darkest thing it's sensors see..`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Licnex`, `Line-Follower`, `@LicnexKhan`, `momin-khan-592797283`, `gmail.com`, `mominravage`, `Arduino Line Follower`, `An Arduino Line Follower that follows the darkest thing it's sensors see.`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,65 +109,29 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
+- Vs Code 
+- Platform.io (only download main.cpp if you want to use Arduino IDE)
+- A Line Follower Bot using:
+    - Arduino Uno
+    - l298n
+    - 2 Motors
+    - 2 ir sensors
+    - (these are just the important things that you need for the bot to work with this code)
+- A USB 2.0 Cable Type A/B / An Uno Cable 
+- A working pc with internet
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/Licnex/Line-Follower.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin Licnex/Line-Follower
-   git remote -v # confirm the changes
-   ```
+-Make sure you have the Requirements
+-Download this repository
+-Open it in Vs code
+-Initialize Platformio
+-Open the repo folder
+-Make sure the pins are configured properly to your bot in src/main.cpp
+-Connect the Uno Cable
+-Upload to Arduino
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/Licnex/Line-Follower/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -192,8 +156,6 @@ Don't forget to give the project a star! Thanks again!
   <img src="https://contrib.rocks/image?repo=Licnex/Line-Follower" alt="contrib.rocks image" />
 </a>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -206,20 +168,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@@LicnexKhan](https://twitter.com/@LicnexKhan) - mominravage@gmail.com.com
+Your Name - [@LicnexKhan](https://twitter.com/@LicnexKhan) - mominravage@gmail.com.com
 
 Project Link: [https://github.com/Licnex/Line-Follower](https://github.com/Licnex/Line-Follower)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
