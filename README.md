@@ -83,10 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A simple arduino line follower that just follows the darkest thing its ir sensor sees
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+A simple arduino line follower that just follows the darkest thing its ir sensor sees. Im hoping to add PID in the future but to the smooth branch. ^_^
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
