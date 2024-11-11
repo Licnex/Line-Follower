@@ -27,30 +27,6 @@
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/Licnex/Line-Follower">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">Arduino Line Follower</h3>
-
-  <p align="center">
-    An Arduino Line Follower that follows the darkest thing it's sensors see.
-    <br />
-    <a href="https://github.com/Licnex/Line-Follower"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Licnex/Line-Follower">View Demo</a>
-    ·
-    <a href="https://github.com/Licnex/Line-Follower/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/Licnex/Line-Follower/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
