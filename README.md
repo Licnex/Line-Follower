@@ -75,14 +75,14 @@ A simple arduino line follower that just follows the darkest thing its ir sensor
 - A working pc with internet
 ### Installation
 
--Make sure you have the Requirements
--Download this repository
--Open it in Vs code
--Initialize Platformio
--Open the repo folder
--Make sure the pins are configured properly to your bot in src/main.cpp
--Connect the Uno Cable
--Upload to Arduino
+ - Make sure you have the Requirements
+ - Download this repository
+ - Open it in Vs code
+ - Initialize Platformio
+ - Open the repo folder
+ - Make sure the pins are configured properly to your bot in src/main.cpp
+ - Connect the Uno Cable
+ - Upload to Arduino
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
