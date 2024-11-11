@@ -121,7 +121,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@LicnexKhan](https://twitter.com/@LicnexKhan) - mominravage@gmail.com.com
+Momin Khan - [@LicnexKhan](https://twitter.com/@LicnexKhan) - mominravage@gmail.com.com
 
 Project Link: [https://github.com/Licnex/Line-Follower](https://github.com/Licnex/Line-Follower)
 
