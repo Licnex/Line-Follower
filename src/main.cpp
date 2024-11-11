@@ -8,10 +8,6 @@ void setup() {
   
   for (int i = 0; i < 2; i++) {
     pinMode(motorPins[i], OUTPUT);
-    digitalWrite(motorPins[i], LOW); // Initially stop both motors
-  }
-  
-  for (int i = 0; i < 2; i++) {
     pinMode(sensorPins[i], INPUT);
   }
 }
@@ -27,13 +23,13 @@ void loop() {
   Serial.print(" | Right Sensor: ");
   Serial.println(sensorValues[1]);
   
-  if (sensorValues[0] == LOW && sensorValues[1] == LOW) {
+  if (sensorValues[0] ==  sensorValues[1]) {
     moveForward();
   } 
-  else if (sensorValues[0] == HIGH && sensorValues[1] == LOW) {
+  else if (sensorValues[0] > sensorValues[1]) {
     turnRight();
   } 
-  else if (sensorValues[0] == LOW && sensorValues[1] == HIGH) {
+  else if (sensorValues[0] < sensorValues[1]) {
     turnLeft();
   } 
   else {
